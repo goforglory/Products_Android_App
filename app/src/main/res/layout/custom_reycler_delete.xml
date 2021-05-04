@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C3C3C3">
+
+
+        <ImageView
+            android:id="@+id/recycle_products_iv"
+            android:layout_width="0dp"
+            android:layout_height="320dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/prologo2" />
+
+        <TextView
+            android:id="@+id/recycle_products_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toTopOf="@+id/recycle_products_iv" />
+
+        <TextView
+            android:id="@+id/recycle_products_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cateogry :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_id_data" />
+
+        <TextView
+            android:id="@+id/recycle_products_tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TradeMark :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_cat_data" />
+
+        <TextView
+            android:id="@+id/recycle_products_selling_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_selling" />
+
+        <TextView
+            android:id="@+id/recycle_products_available_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/recycle_products_quantityperunit_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_quantityperunit" />
+
+        <TextView
+            android:id="@+id/recycle_products_selling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selling price :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_tm_data" />
+
+        <TextView
+            android:id="@+id/recycle_products_purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purchase Price :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_selling_data" />
+
+        <TextView
+            android:id="@+id/recycle_products_quantityperunit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="quantity per unit :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_purchase_data" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Quantity :"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_quantityperunit_data" />
+
+        <Button
+            android:id="@+id/recycle_products_btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="12dp"
+            android:text="Delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_iv" />
+
+        <TextView
+            android:id="@+id/recycle_products_purchase_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_purchase" />
+
+        <TextView
+            android:id="@+id/recycle_products_id_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_id" />
+
+        <TextView
+            android:id="@+id/recycle_products_cat_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_cat" />
+
+        <TextView
+            android:id="@+id/recycle_products_tm_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintStart_toEndOf="@+id/recycle_products_iv"
+            app:layout_constraintTop_toBottomOf="@+id/recycle_products_tm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

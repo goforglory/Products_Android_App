@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/operations_add_product"
+        android:title="Add product"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+    <item
+        android:id="@+id/operations_delete_product"
+        android:title="Delete Product"
+        android:icon="@drawable/ic_baseline_delete_24"
+        />
+    <item
+        android:id="@+id/operations_edit_product"
+        android:title="Edit Product"
+        android:icon="@drawable/ic_baseline_edit_24"
+        />
+    <item
+        android:id="@+id/operations_allcost"
+        android:title="All costs"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        />
+    <item
+        android:id="@+id/operations_allincome"
+        android:title="In come"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        />
+    <item
+        android:id="@+id/operations_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/operations_signout"
+        android:title="sign out"
+        android:icon="@drawable/ic_baseline_follow_the_signs_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/main_search"
+        android:title="search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        />
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">finalproject</string>
+    <string name="kinnds">category</string>
+    <string name="tradeMark">Trade Mark</string>
+    <string name="selling">Selling price</string>
+    <string name="purchasing">Purchasing Price</string>
+    <string name="quantity">Quantitty per unit</string>
+    <string name="available_quantity">Available Quantity</string>
+    <string name="no_of_cat">Nimber of categories</string>
+    <string name="no_of_products">Number of all sold Products per unit</string>
+    <string name="allincome_value">All Sold products income</string>
+    <string name="allpayments_value">All Purchased products cost</string>
+    <string name="no_of_purchasedproducts">no of All purchased Products</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_material">16dp</dimen>
+    <dimen name="Floatingbtn">20dp</dimen>
+    <dimen name="edittxtmarg">10dp</dimen>
+    <dimen name="products_card_elevation">10dp</dimen>
+    <dimen name="product_card_radius">10dp</dimen>
+    <dimen name="iv_h">100dp</dimen>
+    <dimen name="custom_product_category_textsize">18dp</dimen>
+    <dimen name="custom_product_trade_mark_txtsize">16dp</dimen>
+    <dimen name="custom_product_tv_trademark_width">250dp</dimen>
+    <dimen name="tv_padding">12dp</dimen>
+</resources>
